@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to our site</title>
+
+<!-- Bootstrap CSS-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- Custom CSS -->
+<link href="css/global-style.css" rel="stylesheet" type="text/css">
+<!-- Media queries CSS -->
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<!-- Wrapper start -->
+<div class="wrapper">
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#HowItsWork">
+  How It's Work Lightbox
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="HowItsWork">
+  <div class="modal-dialog howItWorks">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <!-- Carousel start -->
+      <div id="howItWorksCarousel" class="carousel slide">
+          <div class="modal-body">                                        
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-md-7">
+                        	<img src="img/planEvent.png" alt="Plan Your Event" title="Plan Your Event" class="img-responsive"/>
+                        </div>
+                        <div class="col-md-5">
+                        	<div class="howItWorksContent">
+                            	<h2>Plan your event</h2>
+                                <p>Trommel vrienden en familie op, kies uw menu en verstuur uw aanvraag.</p>
+                                <a href="#">MEER <i class="fa fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-7">
+                        	<img src="img/ourChef.png" alt="Our Chef" title="Our Chef" class="img-responsive"/>
+                        </div>
+                        <div class="col-md-5">
+                        	<div class="howItWorksContent">
+                            	<h2>Our Chef</h2>
+                                <p>De chef belt aan. U doet open. Hij heeft de boodschappen gedaan, kookt, bedient en ruimt op.</p>
+                                <a href="#">MEER <i class="fa fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-7">
+                        	<img src="img/enjoy.png" alt="Relax And Enjoy" title="Relax And Enjoy" class="img-responsive"/>
+                        </div>
+                        <div class="col-md-5">
+                        	<div class="howItWorksContent">
+                            	<h2>Relax &amp; Enjoy</h2>
+                                <p>Zorgeloos genieten van een geweldige ervaring; uw restaurant aan huis.</p>
+                                <a href="#">MEER <i class="fa fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                    
+                <!-- Controls -->
+                <a class="left carousel-control" href="#howItWorksCarousel" data-slide="prev">
+                </a>
+                <a class="right carousel-control" href="#howItWorksCarousel" data-slide="next">
+                </a>                               
+          </div>
+      
+          <div class="modal-footer">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#howItWorksCarousel" data-slide-to="0" class="active"><span>YOUR EVENT</span></li>
+                <li data-target="#howItWorksCarousel" data-slide-to="1"><span>OUR CHEF</span></li>
+                <li data-target="#howItWorksCarousel" data-slide-to="2"><span>RELAX &amp; ENJOY</span></li>
+            </ol>
+          </div>
+          
+       </div>
+       <!-- Carousel end -->
+    </div>
+  </div>
+</div>
+</div>
+<!-- Wrapper end -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.js"></script>
+<!-- Include all compiled plugins, or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+<!-- Script for custom -->
+<script src="js/custom-script.js"></script>
+
+</body>
+</html>

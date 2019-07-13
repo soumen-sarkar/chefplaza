@@ -1,0 +1,122 @@
+@media (min-width: 1200px) and (max-width: 1920px) {
+	.howItWorks {
+    	width: 1110px;
+  	}
+}
+/*Medium device (Desktops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.howItWorks {
+    	width: 960px;
+  	}
+}
+/*Small device (SD)*/
+@media (max-width: 991px) {	
+	#HowItsWork .howItWorksContent {
+		padding-top: 0px;
+		text-align: center;
+	}
+	#HowItsWork .carousel-indicators li {
+		padding: 0 15px;
+	}
+	
+	.stickRight,
+	.stickLeft{
+		float: none;
+	}
+	.attachedText{
+		float: none !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		border: none !important;
+		text-align: center;
+	}
+	.iconWrap{
+		padding-bottom: 30px;
+	}
+	.iconWrap img{
+		width: 145px;
+		height: 160px;
+	}
+	.catchPhraseWide{text-align: center;}
+	
+	.whatIsAGiftCardWide{
+		text-align: center;
+	}
+	.whatIsCardText p{
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.perksText h3{
+		text-align: center;
+		margin: 10px 0;
+	}
+	.perksText p{
+		text-align: center;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.perksIcon{
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+	.temp-text-right{
+		text-align: center;
+	}
+	.selectPackageHeader,
+	.eachPackage p,
+	.rangerArea{
+		text-align: center;
+	}
+	img.ranger-temp-img{
+		display: inline-block;
+	}
+}
+/*Extra small device (XS)*/
+@media (max-width: 767px) {
+	#HowItsWork .howItWorksContent h2 {
+			font-size: 23px;
+			margin-bottom: 13px;
+		}
+		#HowItsWork .carousel-indicators {
+			width: 100%;
+			left: 0%;
+			margin: 0;
+		}
+		#HowItsWork .carousel-indicators li {
+			font-size: 11px;
+		}
+		#HowItsWork .howItWorksContent p {
+			font-size: 14px;
+		}
+			
+	.navbar-nav {
+	 margin: 0;
+	}
+	.classicForm label span{
+		position: relative;
+		display: block;
+		float: none;
+		text-align: left;
+		margin-left: 0;
+	}
+}
+/*Extra small device (XS-More refine)*/
+@media (max-width: 480px) {	
+	.iconWrap{
+		padding-bottom: 18px;
+	}
+	.iconWrap img{
+		width: 100px;
+		height: 110px;
+	}
+	.attachedText{
+		padding: 24px 24px;
+	}
+}
+
+
